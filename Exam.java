@@ -43,7 +43,6 @@ public class Exam {
 		
 		//suất điểm đã random
 			diemKetThucA = (number * 0.7 + number1 * 0.3);
-			double diemA= (number * 0.7 + number1 * 0.3);
 			System.out.println("Môn A điểm70% là: "+ number  + " _Điểm30% là: "+ number1); 
 			System.out.println("Điểm kết thúc của môn A: "+(Math.round(diemKetThucA)));
 			if (diemKetThucA>= 5) {
